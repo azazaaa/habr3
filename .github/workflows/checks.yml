@@ -24,6 +24,6 @@ jobs:
         run: |
           pip install -r requirements.txt
       - name: Run script main
-        run: python main.py ${{ secrets.LOGIN }} ${{ secrets.PASSWORD }} ${{ TOKEN }} ${{ CHAT_ID }}
+        run: python main.py ${{ secrets.LOGIN }} ${{ secrets.PASSWORD }} ${{ TOKEN }}
 
 
